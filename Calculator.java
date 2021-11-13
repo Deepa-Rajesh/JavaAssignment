@@ -4,7 +4,7 @@ Assignment 3
 Program to perform addition, subtraction, multiplication and division
  */
 public class Calculator {
-    // add the condition for exit
+    
     public static void main(String[] args) {
         char exit;
         int num1, num2;
