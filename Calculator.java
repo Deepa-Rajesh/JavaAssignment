@@ -6,6 +6,7 @@ Program to perform addition, subtraction, multiplication and division
 public class Calculator {
     // add the condition for exit
     public static void main(String[] args) {
+        char exit;
         int num1, num2;
         char operation;
         int result = 0;
