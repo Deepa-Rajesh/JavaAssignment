@@ -16,7 +16,7 @@ public class Calculator {
             num1 = sc.nextInt();
             System.out.println("enter second number");
             num2 = sc.nextInt();
-            System.out.println("Enter the operation you want to perform / 'N' to exit");
+            System.out.println("Enter the operation you want to perform (+, -, *, /) or any char to exit");
             operation = sc.next().charAt(0);
             if (operation == '+') {
                 result = num1 + num2;
