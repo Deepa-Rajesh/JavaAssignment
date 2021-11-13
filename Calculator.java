@@ -16,7 +16,7 @@ public class Calculator {
             num1 = sc.nextInt();
             System.out.println("enter second number");
             num2 = sc.nextInt();
-            System.out.println("Enter the operation you want to perform ");
+            System.out.println("Enter the operation you want to perform / 'N' to exit");
             operation = sc.next().charAt(0);
             if (operation == '+') {
                 result = num1 + num2;
@@ -30,6 +30,8 @@ public class Calculator {
             } else if (operation == '/') {
                 result = num1 / num2;
                 System.out.println("Division result is " + result);
+            } else {
+                System.exit(0);
             }
         }while(true);
     }
