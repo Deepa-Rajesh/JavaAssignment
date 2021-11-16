@@ -15,13 +15,17 @@ public class Smallnum {
         num4 = sc.nextInt();
         min = num1;
         // comparing number with each other to get smallest number
-        if(num2< num1){
-            min = num2;
-        }else if(num3 < num1){
-            min = num3;
-        }else if(num4<num1){
-            min = num4;
+            if ((num1<=num2)&&(num1<=num3)&&(num1<=num4)){
+                min=num1;
+            }else if((num2<=num3)&&(num2<=num4)){
+                min=num2;
+            }else if(num3<=num4) {
+                min=num3;
+            }else {
+                min=num4;
+            }
+            System.out.println("The smallest number is "+ min);
         }
-        System.out.println(min + "the smallest number");
+
     }
-}
+
