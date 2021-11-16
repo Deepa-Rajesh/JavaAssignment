@@ -5,10 +5,11 @@ Program to arrange given number in ascending order
  */
 public class Ascendingnumber {
     public static void main(String[] args) {
-        String strvalue;
+        int num;
         System.out.println("Enter any number you want to arrange in ascending order");
         Scanner sc = new Scanner(System.in);
-        strvalue = sc.nextLine();
+        num = sc.nextInt();
+        String strvalue = Integer.toString(num);
         int len = strvalue.length();
         char c[] = new char[len];
 
